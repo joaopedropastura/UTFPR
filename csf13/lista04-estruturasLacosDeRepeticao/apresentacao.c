@@ -11,12 +11,9 @@ int main(void)
 	months = 0;
 	days = 0;
 	scanf("%i", &inputDays);
-
-
-
 	while (inputDays != 0)
 	{
-	if (inputDays >= 365)
+	if (imputDays >= 365)
 	{
 		years++;
 		inputDays -= 365;
@@ -29,9 +26,7 @@ int main(void)
 		days++;
 		inputDays--;
 	}
-
-
-
+	
 	printf("%i ano(s)\n", years);
 	printf("%i mes(es)\n", months);
 	printf("%i dia(s)\n", days);

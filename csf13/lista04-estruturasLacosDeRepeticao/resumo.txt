@@ -1,0 +1,12 @@
+funcao da biblio <time.h>
+
+sintaxe...
+
+time_t (variavel) para armazenar o incio
+time_t (variavel2) para armazenar o fim da contagem
+
+
+variavel = time(NULL); inicia a contagem
+
+como contar o tempo:
+variavel2 = time(NULL)- variavel;
