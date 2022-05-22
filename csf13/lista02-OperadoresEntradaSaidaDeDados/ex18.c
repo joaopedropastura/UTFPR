@@ -18,4 +18,5 @@ int main(void)
     result += (tax * totaltax);
 
     printf("O valor total gasto eh: R$ %.2lf\n", result);
+    return(0);
 }
